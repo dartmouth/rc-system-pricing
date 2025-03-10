@@ -1,0 +1,54 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Header styling */
+.header {
+    background-color: #00693e;
+    color: white; 
+    padding: 10px;
+}
+
+/* Title styling */
+#title {
+    margin: 0;
+}
+
+/* Description section */
+#description {
+    font-size: 18px;
+    color: #333;
+    margin: 20px auto;
+    width: 60%;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+/* Image styling */
+#dartmouh-pine {
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Link hover effect */
+a:hover {
+    background-color: #0056b3;
+} 

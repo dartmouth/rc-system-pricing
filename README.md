@@ -2,6 +2,8 @@
 
 Research Computing System Pricing App
 
+Tim Meehan email - meehanti23@gmail.com
+
 ## HTML and CSS Resources
 
 This **MDN Web Docs** link has great information for both HTML and CSS. On the sidebar on the left side of the page, you will find tabs that explain HTML and CSS fundamentals. This Mozilla developer website is a great resource to familiarize yourself with as it has comprehensive documentation for many technologies.  
