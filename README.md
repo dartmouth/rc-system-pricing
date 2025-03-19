@@ -34,3 +34,19 @@ I think the first two lessons, **"Introduction to JavaScript"** and **"Variables
 - Feel free to **stop early** if they are too time-consuming.  
 - If you finish early, you can **try a couple of the projects or quizzes** for extra practice.
 
+### Blast Off Excersize for 5/26
+
+## 📝 Objective
+Write a function called `blastOff` that counts down from a given number and alerts `"Blast off!"` when it reaches zero.
+
+---
+
+## The Problem
+We want to:
+1. **Ask the user for a number** between **0 and 20**.
+2. **Ensure** they enter a valid number (keep asking if they don’t).
+3. **Count down** from that number to `0`.
+4. **Alert `"Blast off!"`** when the countdown reaches zero.
+
+## Additionally, let's try to have node downloaded for the next session
+https://nodejs.org/en/download
