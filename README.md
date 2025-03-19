@@ -34,7 +34,7 @@ I think the first two lessons, **"Introduction to JavaScript"** and **"Variables
 - Feel free to **stop early** if they are too time-consuming.  
 - If you finish early, you can **try a couple of the projects or quizzes** for extra practice.
 
-### Blast Off Excersize for 5/26
+### Blast Off Excersize for 3/26
 
 ## 📝 Objective
 Write a function called `blastOff` that counts down from a given number and alerts `"Blast off!"` when it reaches zero.
