@@ -50,3 +50,8 @@ We want to:
 
 ## Additionally, let's try to have node downloaded for the next session
 https://nodejs.org/en/download
+
+
+### Homework for 4/2
+- Complete Submit functionality
+- Will elaborate shortly

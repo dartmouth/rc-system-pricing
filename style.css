@@ -52,3 +52,12 @@ a {
 a:hover {
     background-color: #0056b3;
 } 
+
+#best-paper {
+    width: 40%;
+    align-items: center;
+}
+
+.selection {
+    align-items: center;
+}

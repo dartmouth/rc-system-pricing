@@ -21,11 +21,46 @@
     <br>
     <a href="options.html">Go to options pages</a>
 
+    <button id="epic-button">Epic</button>
+
   </main>
 
-  <script>
+  <form>
+    <div class="selection">
+      <fieldset id="best-paper">
+        <legend>Best paper ingredient for Guacamole</legend>
+        <div>
+          <input type="radio" id="paper-towel" />
+          <label>Paper Towel</label>
+        </div>
+        <div>
+          <input type="radio" id="toilet-paper" />
+          <label>Toilet Paper</label>
+        </div>
+        <div>
+          <input type="radio" id="tissue-paper" />
+          <label>Tissue Paper</label>
+        </div>
+      </fieldset>
+    </div>
 
-  </script>
+    <p>Paper content:</p>
+    <div>
+      <input
+        type="range"
+        id="paper-content"
+        min="0"
+        max="10"
+        step="1" />
+      <label for="paper-content">Paper Content</label>
+    </div>
+    <div>
+      <input
+        type="submit"
+        id="submit"
+        value="Submit" />
+    </div>
+  </form>
 
 </body>
 </html>
