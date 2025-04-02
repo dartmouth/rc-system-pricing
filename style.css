@@ -61,3 +61,8 @@ a:hover {
 .selection {
     align-items: center;
 }
+
+#output {
+    border: dashed red;
+    border-radius: 5px;
+}
