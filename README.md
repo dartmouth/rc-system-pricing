@@ -50,3 +50,54 @@ We want to:
 
 ## Additionally, let's try to have node downloaded for the next session
 https://nodejs.org/en/download
+
+
+# 💻 Challenge for 4/2: Submit Button Functionality
+
+The challenge for this week is to **wire up the “Submit” button** on the form to a JavaScript function. The form includes multiple tools for data entry (`radio`, `range`) and a Submit button.
+
+🟢 **Goal:**  
+When the Submit button is clicked, the results of the entered data should be **printed to the screen** (not just logged in the console).
+
+---
+
+## ✅ How to Approach This
+
+You will need to use JavaScript to:
+1. Add an `EventListener` for the Submit button.
+2. Prevent the page from refreshing (default behavior for form submission).
+3. Grab the data from each input.
+4. Display the values on the page using `textContent`, `innerHTML`, or `createElement`.
+
+---
+
+## 🔗 Helpful Resources
+
+- [`addEventListener()` on MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)  
+- [HTML Form Reference – W3Schools](https://www.w3schools.com/js/js_validation.asp)  
+- [HTML `<form>` element – MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+
+---
+
+## 📁 Starter Files
+
+I have pushed the form we created to the `main` branch in GitHub.  
+Feel free to use that form as a starting point, or create your own.
+
+---
+
+## 🧪 Optional Bonus Challenges
+
+- Add additional forms of data entry (e.g., text input, checkboxes, dropdowns)
+- Add basic **error handling**, such as:
+  - Prevent submission if a required field is blank
+  - Prevent text input where a number is expected
+
+---
+
+## 🙌 Final Notes
+
+Just do your best — this is practice!  
+If you don’t get it working, **don’t stress** — we’ll go over the solution at the beginning of next week’s session.
+
+Happy coding! 💫
