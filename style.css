@@ -43,3 +43,13 @@ a{
 a:hover{
     background-color: #0056b3;
 }
+
+.selection {
+    align-items: center;
+}
+
+#output {
+    border: dashed red;
+    border-radius: 5px;
+}
+
