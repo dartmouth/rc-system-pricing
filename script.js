@@ -70,21 +70,17 @@ let isRaining = true; // boolean
 
 // let countdown = prompt("Please enter a number between 0 and 20");
 
-// function blastOff(countdown) {}
+function blastOff(countdown) {
+    // Challenge - get this function to successfully reprompt until a valid input is given
+    while (countdown > 20 || countdown < 0) {
+        countdown = prompt("Please enter a number between 1 and 20")
+    }
 
+    while (countdown >= 0) {
+        alert(countdown);
+        countdown--;
+    }
+    alert("Blast off!");
+}
 
-//   if (countdown > 20) {
-//     countdown = prompt("Please enter a number less than or equal to 20");
-//     return; 
-//   } else if (countdown < 0) {
-//     countdown = prompt("Please enter a number greater than or equal to 0");
-//     return;
-//   } 
-//   while (countdown >= 0) {
-//     alert(countdown);
-//     countdown--;
-//   }
-//   alert("Blast off!");
-// }
-
-// blastOff();
+blastOff(40);
