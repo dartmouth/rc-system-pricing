@@ -21,28 +21,106 @@
     <br>
     <a href="options.html">Go to options pages</a>
 
+    <br>
+
     <button id="epic-button">Epic</button>
 
   </main>
 
-  <form>
-    <div class="selection">
-      <fieldset id="best-paper">
-        <legend>Best paper ingredient for Guacamole</legend>
-        <div>
-          <input type="radio" id="paper-towel" name="paper" value="Paper Towel" />
-          <label>Paper Towel</label>
-        </div>
-        <div>
-          <input type="radio" id="toilet-paper" name="paper" value="Toilet Paper" />
-          <label>Toilet Paper</label>
-        </div>
-        <div>
-          <input type="radio" id="tissue-paper" name="paper" value="Tissue Paper" />
-          <label>Tissue Paper</label>
-        </div>
-      </fieldset>
-    </div>
+      <!-- Paragraphs and Text Formatting -->
+      <h2>Text Formatting</h2>
+      <p>This is a normal paragraph. You can make text <strong>bold</strong>, <em>italic</em>, or <u>underlined</u>.</p>
+      <p>You can also use <mark>highlighting</mark>, <small>small text</small>, and <del>strikethrough</del>.</p>
+      
+      <!-- Lists -->
+      <h2>Lists</h2>
+      <h3>Unordered List (Bullet Points)</h3>
+      <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+      </ul>
+      
+      <h3>Ordered List (Numbered)</h3>
+      <ol>
+          <li>Step one</li>
+          <li>Step two</li>
+          <li>Step three</li>
+      </ol>
+    
+      <!-- Links -->
+      <h2>Links</h2>
+      <p>Links allow you to navigate between pages:</p>
+      <ul>
+          <li><a href="page2.html">Go to Page 2</a> - Link to another page in your project</li>
+          <li><a href="https://www.mdn.com" target="_blank">MDN Web Docs</a> - External link (opens in new tab)</li>
+      </ul>
+      
+      <!-- Images -->
+      <h2>Images</h2>
+      <p>You can add images using the img tag:</p>
+      <img src="https://via.placeholder.com/300x200" alt="Placeholder image description" width="300">
+      
+      <!-- Tables -->
+      <h2>Tables</h2>
+      <table border="1">
+          <thead>
+              <tr>
+                  <th>Header 1</th>
+                  <th>Header 2</th>
+                  <th>Header 3</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Row 1, Cell 1</td>
+                  <td>Row 1, Cell 2</td>
+                  <td>Row 1, Cell 3</td>
+              </tr>
+              <tr>
+                  <td>Row 2, Cell 1</td>
+                  <td>Row 2, Cell 2</td>
+                  <td>Row 2, Cell 3</td>
+              </tr>
+          </tbody>
+      </table>
+      
+    <!-- Forms (Basic Input Elements) -->
+    <h2>Form Elements</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to newsletter</label><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+      <div class="selection">
+        <fieldset id="best-paper">
+          <legend>Best paper ingredient for Guacamole</legend>
+          <div>
+            <input type="radio" id="paper-towel" name="paper" value="Paper Towel" />
+            <label>Paper Towel</label>
+          </div>
+          <div>
+            <input type="radio" id="toilet-paper" name="paper" value="Toilet Paper" />
+            <label>Toilet Paper</label>
+          </div>
+          <div>
+            <input type="radio" id="tissue-paper" name="paper" value="Tissue Paper" />
+            <label>Tissue Paper</label>
+          </div>
+        </fieldset>
+      </div>
 
     <p>Paper content:</p>
     <div>
