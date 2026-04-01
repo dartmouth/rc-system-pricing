@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon Training - While Loop Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🌟 Pokemon Training - While Loop Demo 🌟</h1>
+    
+    <p><strong>Instructions:</strong> Set your Pokemon's starting and target levels, then click "Start Training!"</p>
+    
+    <div class="inputs">
+        <p>
+            Starting Level: <input type="number" id="starting-level" value="5" min="1" max="99">
+            Target Level: <input type="number" id="target-level" value="10" min="2" max="100">
+        </p>
+    </div>
+    
+    <button onclick="startTraining()">Start Training! ⚡</button>
+    
+    <div id="output">Enter levels and click "Start Training!" to begin!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+if (currentLevel > targetLevel) {
+    levelsGained -= (currentLevel - targetLevel);  // Adjust levels gained
+    currentLevel = targetLevel;                    // Set to exact target
+}
